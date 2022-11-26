@@ -46,5 +46,5 @@ body:
     attributes:
       label: Please confirm the following
       options:
-        - label: I have read [Contributing Guide](https://github.com/iptv-org/iptv/blob/master/CONTRIBUTING.md#report-a-broken-stream)
+        - label: I have read [Contributing Guide](https://github.com/bonehead13/iptv/blob/master/CONTRIBUTING.md#report-a-broken-stream)
           required: true

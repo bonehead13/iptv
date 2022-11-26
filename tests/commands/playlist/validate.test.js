@@ -13,7 +13,7 @@ it('show an error if channel name in the blocklist', () => {
   } catch (err) {
     expect(err.status).toBe(1)
     expect(err.stdout).toBe(
-      `\n> playlist:validate\n> node scripts/commands/playlist/validate.js\n\nloading blocklist...\nfound 4 records\n\ntests/__data__/input/streams/us_blocked.m3u\n 2     error    "Fox Sports 2 Asia" is on the blocklist due to claims of copyright holders (https://github.com/iptv-org/iptv/issues/0000)\n\n1 problems (1 errors, 0 warnings)\n`
+      `\n> playlist:validate\n> node scripts/commands/playlist/validate.js\n\nloading blocklist...\nfound 4 records\n\ntests/__data__/input/streams/us_blocked.m3u\n 2     error    "Fox Sports 2 Asia" is on the blocklist due to claims of copyright holders (https://github.com/bonehead13/iptv/issues/0000)\n\n1 problems (1 errors, 0 warnings)\n`
     )
   }
 })

@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        This form is only for requests from the copyright owner or an agent authorized to act on behalf of the copyright owner. If you're experiencing problems viewing a channel please fill a [Broken Stream](https://github.com/iptv-org/iptv/issues/new?assignees=&labels=broken+stream&template=-----broken-stream.yml&title=Fix%3A+) form instead.
+        This form is only for requests from the copyright owner or an agent authorized to act on behalf of the copyright owner. If you're experiencing problems viewing a channel please fill a [Broken Stream](https://github.com/bonehead13/iptv/issues/new?assignees=&labels=broken+stream&template=-----broken-stream.yml&title=Fix%3A+) form instead.
 
   - type: input
     attributes:
@@ -51,5 +51,5 @@ body:
     attributes:
       label: 'Please confirm the following'
       options:
-        - label: I have read and understand iptv-org's [Legal Statement](https://github.com/iptv-org/iptv#legal)
+        - label: I have read and understand iptv-org's [Legal Statement](https://github.com/bonehead13/iptv#legal)
           required: true
